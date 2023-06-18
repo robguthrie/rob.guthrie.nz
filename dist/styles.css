@@ -600,3 +600,14 @@ video {
 .underline {
   text-decoration-line: underline;
 }
+
+body {
+  background-color: #feeccf;
+  font-family: 'Roboto', 'sans-serif';
+  color: #15141A;
+  font-size: 18px;
+}
+
+p {
+  margin: 24px 0;
+}
