@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Robert Guthrie</title>
+	<link rel=stylesheet href="dist/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+	<style>
+		body { 
+      background-color: #FFCC82;
+      font-family: 'Roboto', 'sans-serif';
+      color: #15141A;
+      font-size: 18px;
+    }
+    p {
+      margin: 24px 0;
+    }
+	</style>
+</head>
+<body class="p-12">
+	<div class="container mx-auto max-w-xl my-12 font-base">
+		<h1 class="text-6xl/8 my-10 font-light">Hi, I'm Rob</h1>
+
+		<p>I co-founded, designed and built <a class="underline" href="https://www.loomio.com">Loomio<a>, a collaborative decision-making app enjoyed by thousands of organizations around the world.</p>
+
+		<p>I'm now looking for my next role, please get in touch if you'd like to dicuss working together.</p>
+
+		<img class="rounded-lg mx-auto my-10" src="photos/2.jpg">
+
+		<p>I have a passion for radical businesses, open source technologies and collaborative practices. I'm an <a class="underline" href="https://www.enspiral.com">Enspiral</a> member, and have served as a director of the Enspiral foundation.</p>
+
+		<p>I'm based in Wellington, Aotearoa New Zealand. My wife and I have a <span id="homers-age">?</span> month old son, and I'd like to learn how to sail boats one day. <span style="">⛵</span> </p>
+
+		<h2 class="font-light text-3xl my-10">I'd love to hear from you: <a href="mailto:rob@guthrie.nz">rob@guthrie.nz</a></h2>
+
+	</div>
+	<script>
+	function monthDiff(d1, d2) {
+	    var months;
+	    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+	    months -= d1.getMonth();
+	    months += d2.getMonth();
+	    return months <= 0 ? 0 : months;
+	}
+  document.getElementById('homers-age').innerHTML = monthDiff(new Date("2022-12-11"), new Date());
+  </script>
+</body>
+</html>
