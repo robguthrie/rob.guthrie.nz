@@ -2,12 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body { 
-  background-color: #a8f0fe;
-  font-family: 'Roboto', 'sans-serif';
-  color: #15141A;
-  font-size: 18px;
-}
-p {
-  margin: 24px 0;
-}
